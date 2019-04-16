@@ -69,3 +69,9 @@ html {
 	background-image: linear-gradient(to right, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%);
 	background-image: linear-gradient(to right, var(--color, transparent) 0%, var(--color, transparent) 100%);
 }
+
+.text--override {
+	--color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	color: var(--color);
+}
