@@ -7,6 +7,8 @@ html {
 	--ref-color: var(--color);
 	--circular: var(--circular-2);
 	--circular-2: var(--circular);
+	--line-height: 1.5;
+	--font-family: Arial, sans-serif;
 	color: rgb(255, 0, 0);
 	color: var(--color);
 }
@@ -75,4 +77,9 @@ html {
 		--color,
 		blue
 	)/*rtl:red*/;
+}
+
+.test--font {
+	font: normal 100%/1.5 Arial, sans-serif;
+	font: normal 100%/var(--line-height) var(--font-family);
 }

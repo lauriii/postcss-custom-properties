@@ -55,3 +55,7 @@
 .test--loose-formatting {
 	color: rgb(255, 0, 0)/*rtl:red*/;
 }
+
+.test--font {
+	font: normal 100%/1.5 Arial, sans-serif;
+}
